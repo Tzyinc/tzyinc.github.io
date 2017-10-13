@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ten zy, Launches Site"
+title: "First Post"
 date: 2017-10-07
 ---
 
