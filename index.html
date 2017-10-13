@@ -3,22 +3,8 @@ layout: default
 title: Ten Zhi Yang's Portfolio
 ---
 <div class="blurb">
-		<script>
-		function calcyears() {
-			var dob = '20070801';
-			var year = Number(dob.substr(0, 4))
-			var month = Number(dob.substr(4, 2)) - 1
-			var day = Number(dob.substr(6, 2))
-			var today = new Date()
-			var age = today.getFullYear() - year
-			if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < day)) {
-			  age--
-			}
-			document.getElementById('exp').innerHTML = age
-		}
-		window.onload = calcyears()
-		</script>
+
 		<h1>Hi! my name is Ten Zhi Yang.</h1>
     <p> I like to make things.
-I am a developer by training and I excel in making quick prototypes. With over <span id='exp'>x<span> years of experience, I am most proficient in Javascript but am able to work with any other languages.</p>
+I am a developer by training and I excel in making quick prototypes. I am most proficient in Javascript but am able to work with any other languages.</p>
 </div><!-- /.blurb -->
