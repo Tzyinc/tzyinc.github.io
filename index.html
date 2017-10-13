@@ -2,7 +2,7 @@
 layout: default
 title: Ten Zhi Yang's Portfolio
 ---
-<div class="blurb" onload="calcyears()">
+<div class="blurb">
 		<script>
 		function calcyears() {
 			var dob = '20070801';
@@ -16,7 +16,7 @@ title: Ten Zhi Yang's Portfolio
 			}
 			document.getElementById('exp').innerHTML = age
 		}
-
+		window.onload = calcyears()
 		</script>
 		<h1>Hi! my name is Ten Zhi Yang.</h1>
     <p> I like to make things.
