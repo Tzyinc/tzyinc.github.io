@@ -1,9 +1,9 @@
 ---
 layout: posts
-title: "@sg_carparks_bot"
-date: 2017-10-16
+title: "Sew Many Images"
+date: 2018-09-10
 ---
 
-Sg carparks is a telegram bot that I developed to help find nearby parking lots. You send the bot your current location, and it brings up the five nearest carparks from that location and lists out the carparks rate. You can also click on the carpark names returned to you and it will redirect you to google maps for you to find your current location.
+100% JavaScript implementation for CSS image sprite generator.
 
-[Use it now!](https://t.me/sg_carparks_bot)
+[Use it now!](https://www.npmjs.com/package/sew-many-images)
