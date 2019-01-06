@@ -48,3 +48,33 @@ img {
   max-height: 400px;
   max-width: 400px;
 }
+
+.readmore {
+  float: right;
+}
+
+.postTitle {
+  float: right;
+}
+
+.postTitle:hover {
+    text-decoration: underline;
+}
+
+.excerpt {
+  max-height: 120px;
+  position: relative;
+  overflow: hidden;
+  font-size: .6em;
+}
+
+.excerpt .hide {
+  position:absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 30px 0;
+  background-image: linear-gradient(to bottom, transparent, #FFF);
+
+}

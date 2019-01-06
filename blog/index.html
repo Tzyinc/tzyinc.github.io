@@ -1,11 +1,21 @@
 ---
 layout: default
-title: Ten Zhi Yang's Portfolio
+title: Ten Zhi Yang's Project Blog
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> | <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li>
+				<div>
+					<a href="{{ post.url }}" title="{{ post.title }}"><span>{{ post.date | date_to_string }}</span><span class="postTitle">{{ post.title }}</span></a>
+				</div>
+				<div class="excerpt">
+					{{post.content}}
+					<div class="excerpt hide">
+						&nbsp;
+					</div>
+				</div>
+			</li>
+
 	  {% endfor %}
 	</ul>

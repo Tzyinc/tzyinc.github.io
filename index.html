@@ -1,10 +1,24 @@
 ---
 layout: default
-title: Ten Zhi Yang's Portfolio
+title: Tenzy's Page
 ---
 <div class="blurb">
 
-		<h1>Hi! my name is Ten Zhi Yang.</h1>
-    <p> I like to make things.
-I am a developer by training and I excel in making quick prototypes. I am most proficient in Javascript but am able to work with any other languages.</p>
+		<h1>Hi! my name is Ten Zhi Yang!</h1>
+    <p>
+			Known to my friends as Tenzy, I enjoy making things.
+		</p>
+		<p>
+			I am a software engineer, and I work with React Redux and Nodejs. I am most proficient in Javascript but am able to work with any other languages.
+		</p>
+		<h1>Recent Posts</h1>
+		<ul class="posts">
+			{% for post in site.posts %}
+				{% if forloop.index < 4 %}
+					<li><span>{{ post.date | date_to_string }}</span> | <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				{% endif %}
+			{% endfor %}
+			<li class="readmore"><a href="/blog">Read more &gt;</a></li>
+		</ul>
+
 </div><!-- /.blurb -->
