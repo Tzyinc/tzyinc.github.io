@@ -10,4 +10,4 @@ First thing out of the way is
 
 # I won nothing and it sucks
 
-but the thing I realised about how it sucks here is that the way it sucks is a different suckage from how it used to suck
+but the thing I realised about how it sucks here is that the way it sucks is a different suckage from how it used to suck when I entered hackathons. 
