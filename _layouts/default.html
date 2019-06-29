@@ -5,7 +5,7 @@
 			<link rel="shortcut icon" type="image/x-icon" href="/flaticon.ico">
 			<meta property="og:title" content="{{ page.title }}">
 			<meta property="og:image" content="https://tzyinc.github.io/blog/img/tenzy.jpg" />
-			<meta property="og:description" content="{{ page.excerpt | markdownify }}">
+			<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html }}">
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
