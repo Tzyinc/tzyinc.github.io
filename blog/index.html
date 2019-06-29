@@ -9,6 +9,12 @@ title: Tenzy's learnings and ramblings
 				<div>
 					<a href="{{ post.url }}" title="{{ post.title }}"><span>{{ post.date | date_to_string }}</span><span class="postTitle">{{ post.title }}</span></a>
 				</div>
+				<div class="excerpt">
+					{{post.excerpt}}
+					<div class="excerpt hide">
+						&nbsp;
+					</div>
+				</div>
 			</li>
 
 	  {% endfor %}
