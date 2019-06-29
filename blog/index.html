@@ -9,12 +9,6 @@ title: Ten Zhi Yang's Project Blog
 				<div>
 					<a href="{{ post.url }}" title="{{ post.title }}"><span>{{ post.date | date_to_string }}</span><span class="postTitle">{{ post.title }}</span></a>
 				</div>
-				<div class="excerpt">
-					{{post.content}}
-					<div class="excerpt hide">
-						&nbsp;
-					</div>
-				</div>
 			</li>
 
 	  {% endfor %}
