@@ -1,4 +1,4 @@
 theme: jekyll-theme-tactile
-name: Ten Zhi Yang's Portfolio
+name: Tenzy's Website
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
